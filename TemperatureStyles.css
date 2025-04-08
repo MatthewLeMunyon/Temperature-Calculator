@@ -1,8 +1,16 @@
 h1   {
     font-size: 10vw;
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 body {
     background-color: #4872a3;
   }
+
+.nomargin{
+    margin:0;
+}
+
+.center {
+    text-align: center;
+}
