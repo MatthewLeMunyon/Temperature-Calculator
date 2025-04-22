@@ -13,22 +13,23 @@
 <body>
     <h1 class="center">
         Temperature Calculator
-    </h1>    
-    <p><i>Temperature</i> and <strong>Farenheit</strong> Calculator</p>
+    </h1>       
+    <p class="center"><strong>Type a number in the box to see what farenheit is in celsius and kelvin.</strong></p> 
 
-    <form id="form" >
-        Temperature in Farenheit: <input type="text" name="farenheit" id="farenheit"><br>
+    <form id="form" class="center"> 
+        <input type="text" name="farenheit" id="farenheit"><br>
         <input type="button" onclick="calculateTemperatureFromFarenheit()" value="Submit">
       </form>
       
-      <p id="celsius"></p>
-      <p id="kelvin"></p>
+      <p id="celsius" class="center"></p>
+      <p id="kelvin" class="center"></p>
 
     <img
    src = "https://pngimg.com/d/thermometer_PNG51.png"
    alt = "thermometer"
-   width = 400
+   width = 100  
+   class = "centerImage"
    />
-   <a href="https://www.calculatorsoup.com/calculators/conversions/temperature.php">Calculator Soup</a>
+  
 </body> 
 </html>

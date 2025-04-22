@@ -1,5 +1,5 @@
 h1   {
-    font-size: 10vw;
+    font-size: 8vw;
     color: rgb(255, 255, 255);
 }
 
@@ -7,10 +7,20 @@ body {
     background-color: #4872a3;
   }
 
+p{
+    color: white
+}
+
 .nomargin{
     margin:0;
 }
 
 .center {
     text-align: center;
-}
+} 
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
